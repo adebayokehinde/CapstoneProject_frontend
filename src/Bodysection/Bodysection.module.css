@@ -25,3 +25,16 @@
     font-size: 1.5rem;
     text-align: center;
 }
+.Bookride{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    z-index: 100px;
+}

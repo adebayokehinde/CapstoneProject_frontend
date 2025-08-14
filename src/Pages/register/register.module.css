@@ -1,35 +1,51 @@
-.loginDiv{
+.registerContainer {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fefefe;
+  }
+  
+  .roleSelector {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
     justify-content: center;
-}
-.name{
-    width: 300px;
-    height: 40px;
-    border: none;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  .roleSelector button {
+    padding: 8px 16px;
+    border: 1px solid #007bff;
+    background: white;
+    color: #007bff;
+    cursor: pointer;
     border-radius: 5px;
-    margin-bottom: 10px;
-}
-.email{
-    width: 300px;
-    height: 40px;
-    border: none;
+    transition: 0.2s;
+  }
+  
+  .roleSelector .active,
+  .roleSelector button:hover {
+    background: #007bff;
+    color: white;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
     border-radius: 5px;
-    margin-bottom: 10px;
-}
-.password{
-    width: 300px;
-    height: 40px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
     border: none;
+    font-weight: bold;
     border-radius: 5px;
-    margin-bottom: 10px;
-}
-.login{
-    width: 300px;
-    height: 40px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-}
+    cursor: pointer;
+  }
+  

@@ -1,7 +1,7 @@
 .header{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -26,6 +26,7 @@
   }
 .navbar ul a:hover{
     text-decoration: underline;
+    color: orangered;
   }
 .registerButton{
     width: 100px;
@@ -37,6 +38,11 @@
     cursor: pointer;
     margin-right: 10px;
 }
+.registerButton:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
 .loginButton{
     width: 100px;
     height: 40px;
@@ -45,5 +51,10 @@
     color: black;
     cursor: pointer;
 }
+.loginButton:hover {
+    background-color: orangered;
+    color: white;
+    transform: scale(1.05);
+  }
 
 
